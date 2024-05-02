@@ -35,12 +35,14 @@
 ]
 
 $
-#text("{", size: 16pt,  fill: b_color)
-#box(baseline: 25%)[
-#set par(leading: 0.3em)
+#text("{", size: 20pt,  fill: b_color)
+#h(-0.1em)
+#box(baseline: 18%)[
+#set par(leading: 1em-0.618em)
 #set text(weight: "black")
 ```py yield```\
 ```py *lang```
 ]
-#text("}", size: 16pt, fill: b_color)
+#h(-0.1em)
+#text("}", size: 20pt, fill: b_color)
 $
