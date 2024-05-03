@@ -25,15 +25,9 @@
 
 #set align(center+horizon)
 
-#set page(fill: bg_color)
+// #set page(fill: bg_color)
 #place(center+horizon)[
-  #let radius = 2em
-  #box(
-    width: radius,
-    height: radius,
-    fill: bg_color,
-    radius: radius / 4
-  )
+  #image("superellipse.svg", width: 110%, height: 110%)
 ]
 
 #scale(_scale)[
